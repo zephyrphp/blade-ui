@@ -117,8 +117,29 @@ You **can** publish the views using
 php artisan vendor:publish --tag="blade-ui-views"
 ```
 
+## Components
+
+- [Alert](#alert)
+- [Avatar](#avatar)
+- [Badge](#badge)
+- [Button](#button)
+- [Card](#card)
+- [Dialog](#dialog)
+- [Dropdown](#dropdown)
+- [Form](#form)
+- [Icon](#icon)
+- [Link](#link)
+- [Menu](#menu)
+- [Mockup](#mockup)
+- [Navbar](#navbar)
+- [Navlist](#navlist)
+- [Separator](#separator)
+- [Skeleton](#skeleton)
+- [Typography](#typography)
+
 ## Usage
 
+<a id="alert"></a>
 ### Alert
 
 ```php
@@ -133,6 +154,7 @@ php artisan vendor:publish --tag="blade-ui-views"
 <x-ui::alert variant="destructive">..</x-ui::alert>
 ```
 
+<a id="avatar"></a>
 ### Avatar
 
 ```php
@@ -141,6 +163,7 @@ php artisan vendor:publish --tag="blade-ui-views"
 </x-avatar>
 ```
 
+<a id="badge"></a>
 ### Badge
 
 ```php
@@ -154,6 +177,7 @@ php artisan vendor:publish --tag="blade-ui-views"
 <x-badge variant="outline">Badge</x-avatar>
 ```
 
+<a id="button"></a>
 ### Button
 
 ```php
@@ -171,6 +195,7 @@ php artisan vendor:publish --tag="blade-ui-views"
 <x-ui::button size="sm" />
 ```
 
+<a id="card"></a>
 ### Card
 
 ```php
@@ -188,6 +213,7 @@ php artisan vendor:publish --tag="blade-ui-views"
 </x-ui::card>
 ```
 
+<a id="dialog"></a>
 ### Dialog
 
 ```php
@@ -208,6 +234,7 @@ php artisan vendor:publish --tag="blade-ui-views"
 </x-ui::dialog>
 ```
 
+<a id="dropdown"></a>
 ### Dropdown
 
 ```php
@@ -219,6 +246,7 @@ php artisan vendor:publish --tag="blade-ui-views"
 </x-ui::dropdown>
 ```
 
+<a id="form"></a>
 ### Form
 
 ```php
@@ -246,6 +274,7 @@ php artisan vendor:publish --tag="blade-ui-views"
 <x-ui::form.textarea label="Bio" name="bio"></x-ui::form.textarea>
 ```
 
+<a id="icon"></a>
 ### Icon
 
 > See [Zephyr Blade Heroicons](https://github.com/zephyrphp/blade-heroicons).
@@ -260,6 +289,7 @@ php artisan vendor:publish --tag="blade-ui-views"
 <x-ui::icon name="academic-cap" variant="solid"/>
 ```
 
+<a id="link"></a>
 ### Link
 
 ```php
@@ -270,6 +300,7 @@ php artisan vendor:publish --tag="blade-ui-views"
 <x-ui::link current href="...">Current Link</x-ui::link>
 ```
 
+<a id="menu"></a>
 ### Menu
 
 ```php
@@ -290,6 +321,7 @@ php artisan vendor:publish --tag="blade-ui-views"
 </x-ui::menu>
 ```
 
+<a id="mockup"></a>
 ### Mockup
 
 ```php
@@ -299,6 +331,7 @@ php artisan vendor:publish --tag="blade-ui-views"
 </x-ui::mockup.code>
 ```
 
+<a id="navbar"></a>
 ### Navbar
 
 ```php
@@ -319,6 +352,7 @@ php artisan vendor:publish --tag="blade-ui-views"
 </x-ui::navbar>
 ```
 
+<a id="navlist"></a>
 ### Navlist
 
 ```php
@@ -347,6 +381,7 @@ php artisan vendor:publish --tag="blade-ui-views"
 </x-ui::navlist>
 ```
 
+<a id="separator"></a>
 ### Separator
 
 ```php
@@ -360,6 +395,7 @@ php artisan vendor:publish --tag="blade-ui-views"
 <x-ui::separator vertical />
 ```
 
+<a id="skeleton"></a>
 ### Skeleton
 
 ```php
@@ -367,6 +403,7 @@ php artisan vendor:publish --tag="blade-ui-views"
 <x-ui::skeleton class="h-full w-full" />
 ```
 
+<a id="typography"></a>
 ### Typography
 
 ```php
