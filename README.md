@@ -230,9 +230,6 @@ php artisan vendor:publish --tag="blade-ui-views"
     <x-ui::form.error name="username" />
 </x-ui::form.field>
 
-// Shorthand
-<x-ui::form.input label="Username" description="Username should be unique." name="username" />
-
 // Input size
 <x-ui::form.input name="username" size="sm" />
 

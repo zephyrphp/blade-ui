@@ -1,22 +1,9 @@
 @props([
-    'description' => null,
-    'label' => null,
-    'name' => null,
     'size' => 'base',
     'type' => 'text',
 ])
 
 @php
-    $group ??= filled($label);
-
-    if (empty($name)) {
-        $name = $attributes->whereStartsWith('wire:')->isNotEmpty()
-            ? $attributes->whereStartsWith('wire:')->first()
-            : uniqid();
-    }
-
-    $id = 'input-' . $name;
-
     $classes = [];
 
     // Common classes...
@@ -33,24 +20,8 @@
     };
 @endphp
 
-<x-ui::form.field>
-    @if($label)
-        <x-ui::form.label :for="$id">
-            {{ $label }}
-        </x-ui::form.label>
-    @endif
-
-    @if($description)
-        <x-ui::form.description>
-            {{ $description }}
-        </x-ui::form.description>
-    @endif
-
-    <input
-        {{ $attributes->class($classes) }}
-        {{ $attributes->merge(['id' => $id, 'name' => $name, 'type' => $type]) }}
-        data-input
-    />
-
-    <x-ui::form.error name="{{ $name }}"/>
-</x-ui::form.field>
+<input
+    {{ $attributes->class($classes) }}
+    {{ $attributes->merge(['type' => $type]) }}
+    data-input
+/>
