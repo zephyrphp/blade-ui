@@ -3,7 +3,7 @@
 [![Latest Version on Packagist](https://img.shields.io/packagist/v/zephyrphp/blade-ui.svg?style=flat-square)](https://packagist.org/packages/zephyrphp/blade-ui)
 [![Total Downloads](https://img.shields.io/packagist/dt/zephyrphp/blade-ui.svg?style=flat-square)](https://packagist.org/packages/zephyrphp/blade-ui)
 
-This is where your description should go. Limit it to a paragraph or two. Consider adding a small example.
+Blade components to build your UI in Laravel. Inspired by [Shadcn UI](https://ui.shadcn.com/).
 
 ## Requirements
 
