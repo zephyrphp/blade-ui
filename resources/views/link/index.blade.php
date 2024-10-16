@@ -1,6 +1,6 @@
 @props([
     'current' => false,
-    'href',
+    'href' => '#',
 ])
 
 @php
