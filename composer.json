@@ -1,0 +1,47 @@
+{
+    "name": "zephyrphp/blade-ui",
+    "description": "UI components in your Laravel Blade views.",
+    "keywords": [
+        "zephyr",
+        "laravel",
+        "blade",
+        "ui"
+    ],
+    "homepage": "https://github.com/zephyrphp/blade-ui",
+    "license": "MIT",
+    "authors": [
+        {
+            "name": "Fabrice Planchette",
+            "email": "planchettefabrice@hotmail.com",
+            "role": "Developer"
+        }
+    ],
+    "require": {
+        "php": "^8.2",
+        "illuminate/support": "^11.28",
+        "zephyrphp/blade-heroicons": "^1.0"
+    },
+    "require-dev": {
+        "laravel/pint": "^1.18"
+    },
+    "autoload": {
+        "psr-4": {
+            "Zephyr\\BladeUi\\": "src/"
+        }
+    },
+    "scripts": {
+        "format": "vendor/bin/pint"
+    },
+    "config": {
+        "sort-packages": true
+    },
+    "extra": {
+        "laravel": {
+            "providers": [
+                "Zephyr\\BladeUi\\BladeUiServiceProvider"
+            ]
+        }
+    },
+    "minimum-stability": "dev",
+    "prefer-stable": true
+}
